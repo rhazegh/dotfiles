@@ -20,7 +20,7 @@ export PROMPT_COMMAND='echo -ne "\033]0;${PWD/#HOME/~}\007"'
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 
 # Adding ADT to environment PATH
-export PATH="~/android-sdks:$PATH"
+export PATH="$HOME/android-sdks:$PATH"
 
 # PostgreSQL
 export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
