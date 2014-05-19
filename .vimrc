@@ -16,6 +16,7 @@ set hlsearch
 
 " Settings for vim-powerline
 set laststatus=2
+let g:Powerline_stl_path_style='full'
 
 " Settings for ctrlp
 let g:ctrl_max_height=30
